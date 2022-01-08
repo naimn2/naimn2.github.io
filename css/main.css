@@ -83,7 +83,7 @@ section {
 @media screen and (max-width: 770px) {
   img.achievement {
     width: 85%;
-    margin: 0 auto 20px auto;
+    margin: 10px auto 10px auto;
     display: block;
   }
 }
