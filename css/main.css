@@ -4,7 +4,11 @@ body {
 }
 
 .bg-orange {
-  background-color: rgb(224, 132, 45);
+  background-color: rgb(226, 137, 53);
+}
+
+.dark-orange {
+  color: rgb(75, 36, 0);
 }
 
 .card {
