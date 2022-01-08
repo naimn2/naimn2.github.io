@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-orange {
+  background-color: rgb(224, 132, 45);
+}
+
+.card {
+  box-shadow: -1px 1px 47px -16px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 47px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 47px -16px rgba(0,0,0,0.75);
+}
+
+footer {
+  margin: 0;
+  padding: 30px 0;
+}
+
+.pp-container {
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  border: 8px solid white;
+}
+
+h2.about, .pp-container {
+  margin-bottom: 20px;
+}
+
+img.pp {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p.about {
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  transition: 0.4s;
+}
+
+section {
+  margin-top: -56px;
+  padding-top: 56px;
+  /* position: relative; */
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-inner {
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.project-item {
+  margin: 0 auto;
+  max-width: 400px;
+  /* border: 1px solid red; */
+}
+
+.project-item img {
+  
+}
+
+@media screen and (max-width: 500px) {
+  p.about {
+    width: 90%;
+  }
+}
