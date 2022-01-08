@@ -39,6 +39,11 @@ img.pp {
   transform: translateX(-50%);
 }
 
+img.achievement {
+  width: 75%;
+  height: auto;
+}
+
 p.about {
   width: 70%;
   margin: 0 auto;
@@ -73,6 +78,14 @@ section {
   margin: 0 auto;
   max-width: 400px;
   /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 770px) {
+  img.achievement {
+    width: 85%;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 500px) {
