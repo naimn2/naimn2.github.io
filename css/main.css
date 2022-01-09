@@ -117,6 +117,10 @@ section {
   /* border: 1px solid red; */
 }
 
+.projects h2 {
+  margin-bottom: 10vh;
+}
+
 /* 
 Responsive Styles
 */
@@ -130,6 +134,16 @@ Responsive Styles
     height: calc(100vh - 56px);
     width: auto;
   } */
+}
+
+/* phone display portrait 1 or general-phone */
+@media (max-aspect-ratio: 1/1) {
+  .full-height, .section-inner {
+    min-height: 0;
+  }
+  .projects h2 {
+    margin-bottom: 40px;
+  }
 }
 
 /* tablet 2 */
