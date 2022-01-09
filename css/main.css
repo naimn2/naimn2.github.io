@@ -7,6 +7,11 @@ body {
   background-color: rgb(226, 137, 53);
 }
 
+.bg-cover {
+  background-image: url(/assets/img/cover-lg.jpg);
+  background-size: cover;
+}
+
 .dark-orange {
   color: rgb(75, 36, 0);
 }
@@ -84,7 +89,12 @@ section {
   /* border: 1px solid red; */
 }
 
-@media screen and (max-width: 770px) {
+/* 
+Responsive Styles
+*/
+
+/* tablet 2 */
+@media screen and (max-width: 768px) {
   img.achievement {
     width: 85%;
     margin: 10px auto 10px auto;
@@ -92,7 +102,8 @@ section {
   }
 }
 
-@media screen and (max-width: 570px) {
+/* phone */
+@media screen and (max-width: 576px) {
   p.about {
     width: 90%;
   }
